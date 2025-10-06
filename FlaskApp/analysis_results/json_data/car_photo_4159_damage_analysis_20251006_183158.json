@@ -1,0 +1,43 @@
+{
+  "analysis_info": {
+    "timestamp": "2025-10-06T18:31:58.004855",
+    "image_path": "uploads/car_photo_4159.jpg",
+    "image_name": "car_photo_4159",
+    "image_dimensions": {
+      "width": 480,
+      "height": 263,
+      "channels": 3
+    }
+  },
+  "detected_parts": [
+    "Багажник"
+  ],
+  "detected_damage_types": [
+    "Вмятина"
+  ],
+  "damages": [
+    {
+      "damage_id": 1,
+      "damage_type": "Вмятина",
+      "car_part": "Не определено",
+      "matching_confidence": 0.0,
+      "bounding_box": {
+        "x1": 218.82257080078125,
+        "y1": 183.06263732910156,
+        "x2": 251.7696990966797,
+        "y2": 217.0266876220703,
+        "width": 32.94712829589844,
+        "height": 33.96405029296875
+      }
+    }
+  ],
+  "summary": {
+    "total_damages": 1,
+    "damages_by_part": {
+      "Не определено": 1
+    },
+    "damages_by_type": {
+      "Вмятина": 1
+    }
+  }
+}

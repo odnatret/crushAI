@@ -1,0 +1,54 @@
+{
+  "analysis_info": {
+    "timestamp": "2025-10-06T18:34:05.525859",
+    "image_path": "uploads/car_photo_6840.jpg",
+    "image_name": "car_photo_6840",
+    "image_dimensions": {
+      "width": 1024,
+      "height": 1024,
+      "channels": 3
+    }
+  },
+  "detected_parts": [
+    "Стекло лобовое",
+    "Капот",
+    "Бампер передний",
+    "Дверь задняя",
+    "Дверь передняя",
+    "Колесо"
+  ],
+  "detected_damage_types": [
+    "Вмятина"
+  ],
+  "damages": [
+    {
+      "damage_id": 1,
+      "damage_type": "Вмятина",
+      "car_part": "Дверь передняя",
+      "matching_confidence": 0.46076226234436035,
+      "bounding_box": {
+        "x1": 715.2733154296875,
+        "y1": 392.84014892578125,
+        "x2": 931.9650268554688,
+        "y2": 626.4373168945312,
+        "width": 216.69171142578125,
+        "height": 233.59716796875
+      },
+      "part_bounding_box": {
+        "x1": 728.7213745117188,
+        "y1": 187.2053680419922,
+        "x2": 899.5654296875,
+        "y2": 624.10595703125
+      }
+    }
+  ],
+  "summary": {
+    "total_damages": 1,
+    "damages_by_part": {
+      "Дверь передняя": 1
+    },
+    "damages_by_type": {
+      "Вмятина": 1
+    }
+  }
+}

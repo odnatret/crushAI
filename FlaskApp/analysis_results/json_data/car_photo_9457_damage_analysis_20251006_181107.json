@@ -1,0 +1,41 @@
+{
+  "analysis_info": {
+    "timestamp": "2025-10-06T18:11:07.981504",
+    "image_path": "uploads/car_photo_9457.jpg",
+    "image_name": "car_photo_9457",
+    "image_dimensions": {
+      "width": 1536,
+      "height": 1024,
+      "channels": 3
+    }
+  },
+  "detected_parts": [],
+  "detected_damage_types": [
+    "Царапина"
+  ],
+  "damages": [
+    {
+      "damage_id": 1,
+      "damage_type": "Царапина",
+      "car_part": "Не определено",
+      "matching_confidence": 0.0,
+      "bounding_box": {
+        "x1": 557.1839599609375,
+        "y1": 427.96649169921875,
+        "x2": 921.1217651367188,
+        "y2": 555.5961303710938,
+        "width": 363.93780517578125,
+        "height": 127.629638671875
+      }
+    }
+  ],
+  "summary": {
+    "total_damages": 1,
+    "damages_by_part": {
+      "Не определено": 1
+    },
+    "damages_by_type": {
+      "Царапина": 1
+    }
+  }
+}

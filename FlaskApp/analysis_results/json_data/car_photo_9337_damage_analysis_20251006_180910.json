@@ -1,0 +1,27 @@
+{
+  "analysis_info": {
+    "timestamp": "2025-10-06T18:09:10.255874",
+    "image_path": "uploads/car_photo_9337.jpg",
+    "image_name": "car_photo_9337",
+    "image_dimensions": {
+      "width": 1280,
+      "height": 960,
+      "channels": 3
+    }
+  },
+  "detected_parts": [
+    "Капот",
+    "Колесо",
+    "Бампер передний",
+    "Фара передняя",
+    "Дверь передняя",
+    "Стекло лобовое"
+  ],
+  "detected_damage_types": [],
+  "damages": [],
+  "summary": {
+    "total_damages": 0,
+    "damages_by_part": {},
+    "damages_by_type": {}
+  }
+}

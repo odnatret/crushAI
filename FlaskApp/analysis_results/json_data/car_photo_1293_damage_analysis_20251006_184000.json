@@ -1,0 +1,47 @@
+{
+  "analysis_info": {
+    "timestamp": "2025-10-06T18:40:00.480642",
+    "image_path": "uploads/car_photo_1293.jpg",
+    "image_name": "car_photo_1293",
+    "image_dimensions": {
+      "width": 1024,
+      "height": 1024,
+      "channels": 3
+    }
+  },
+  "detected_parts": [
+    "Бампер передний",
+    "Дверь передняя",
+    "Дверь задняя",
+    "Фара передняя",
+    "Бампер задний"
+  ],
+  "detected_damage_types": [
+    "Трещина"
+  ],
+  "damages": [
+    {
+      "damage_id": 1,
+      "damage_type": "Трещина",
+      "car_part": "Не определено",
+      "matching_confidence": 0.0,
+      "bounding_box": {
+        "x1": 463.3490295410156,
+        "y1": 0.0,
+        "x2": 823.2025146484375,
+        "y2": 183.66427612304688,
+        "width": 359.8534851074219,
+        "height": 183.66427612304688
+      }
+    }
+  ],
+  "summary": {
+    "total_damages": 1,
+    "damages_by_part": {
+      "Не определено": 1
+    },
+    "damages_by_type": {
+      "Трещина": 1
+    }
+  }
+}

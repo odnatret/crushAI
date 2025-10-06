@@ -1,0 +1,77 @@
+{
+  "analysis_info": {
+    "timestamp": "2025-10-04T00:16:05.780957",
+    "image_path": "car_image.jpg",
+    "image_name": "car_image",
+    "image_dimensions": {
+      "width": 845,
+      "height": 633,
+      "channels": 3
+    }
+  },
+  "detected_parts": [
+    "front_left_door",
+    "front_glass",
+    "front_left_light",
+    "front_right_door",
+    "wheel",
+    "hood",
+    "back_right_door",
+    "front_bumper"
+  ],
+  "detected_damage_types": [
+    "dent"
+  ],
+  "damages": [
+    {
+      "damage_id": 1,
+      "damage_type": "dent",
+      "car_part": "front_right_door",
+      "matching_confidence": 0.11580805480480194,
+      "bounding_box": {
+        "x1": 313.45062255859375,
+        "y1": 327.6174011230469,
+        "x2": 384.04412841796875,
+        "y2": 431.2065734863281,
+        "width": 70.593505859375,
+        "height": 103.58917236328125
+      },
+      "part_bounding_box": {
+        "x1": 205.7375030517578,
+        "y1": 149.81687927246094,
+        "x2": 369.2697448730469,
+        "y2": 445.778076171875
+      }
+    },
+    {
+      "damage_id": 2,
+      "damage_type": "dent",
+      "car_part": "back_right_door",
+      "matching_confidence": 0.27052387595176697,
+      "bounding_box": {
+        "x1": 122.66654968261719,
+        "y1": 291.1077880859375,
+        "x2": 220.67469787597656,
+        "y2": 380.5018310546875,
+        "width": 98.00814819335938,
+        "height": 89.39404296875
+      },
+      "part_bounding_box": {
+        "x1": 95.49981689453125,
+        "y1": 149.7174530029297,
+        "x2": 231.24346923828125,
+        "y2": 388.3038330078125
+      }
+    }
+  ],
+  "summary": {
+    "total_damages": 2,
+    "damages_by_part": {
+      "front_right_door": 1,
+      "back_right_door": 1
+    },
+    "damages_by_type": {
+      "dent": 2
+    }
+  }
+}
